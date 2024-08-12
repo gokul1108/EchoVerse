@@ -19,6 +19,7 @@ model User {
   username String @unique
   password String
   blogs    Blog[]
+  
 }
 
 model Blog {
